@@ -6,7 +6,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import HolyGrail from "./components/HolyGrail/HolyGrail";
 import MortgageCalculator from "./components/MortgageCalculator/MortgageCalculator";
 import Todo from "./components/Todo/Todo";
-import JobBoard from "./components/JobBoard/JobBoard";
+// import JobBoard from "./components/JobBoard/JobBoard";
 import FileStructure from "./components/FileStructure/FileStructure";
 import { root } from "./components/FileStructure/data";
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="holygrail/" element={<HolyGrail />} />
         <Route path="mortgage/" element={<MortgageCalculator />} />
         <Route path="todo/" element={<Todo />} />
-        <Route path="jobboard/" element={<JobBoard />} />
+        {/* <Route path="jobboard/" element={<JobBoard />} /> */}
         <Route path="filestructure/" element={<FileStructure {...root} />} />
       </Routes>
     </BrowserRouter>
