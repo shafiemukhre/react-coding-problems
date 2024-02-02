@@ -1,0 +1,60 @@
+/* Wrapper */
+.mortgage {
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* the form */
+
+.mortgage-wrapper {
+  width: 500px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.mortgage-wrapper form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.mortgage-wrapper form label {
+  font-size: small;
+}
+
+.mortgage-wrapper form input[type="number"] {
+  margin: 0 0 8px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+.mortgage-wrapper form button {
+  width: fit-content;
+}
+
+/* divider */
+
+hr {
+  border: 1px solid rgb(196, 191, 191);
+  margin: 8px;
+}
+
+/* result area */
+
+.mortgage-result {
+  display: block;
+  text-align: left;
+  font-size: medium;
+}
+
+.mortgage-result ul {
+  padding-inline-start: 5px;
+}
+
+.mortgage-result ul li {
+  list-style-type: none;
+}

@@ -1,0 +1,43 @@
+.holygrail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  padding: 12px;
+}
+
+header {
+  background-color: tomato;
+  height: 60px;
+}
+
+.hg-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+nav {
+  background-color: coral;
+  flex-grow: 1;
+}
+
+main {
+  background-color: moccasin;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: sandybrown;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: slategray;
+  height: 100px;
+}
